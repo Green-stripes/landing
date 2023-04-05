@@ -1,0 +1,32 @@
+.tiles img{
+  width: 100px;
+  height:100px;
+}
+
+.tiles{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.first-tile, .second-tile, .third-tile{
+  width: 220px;
+  height: 300px;
+  text-align: center;
+  box-shadow: 1px 1px 4px 1px rgba(0.3, 0.3, 0.3, 0.3);
+}
+
+.first-tile{
+  margin-left: 30px;
+}
+
+.third-tile{
+  margin-right: 30px;
+}
+
+.tiles p{
+  color:darkgrey;
+  font-size: medium;
+  padding: 5px;
+}

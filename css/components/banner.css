@@ -1,0 +1,19 @@
+.container{
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
+.banner{
+  color:white;
+  padding: 150px 0;
+}
+
+.banner p{
+  margin-bottom: 50px;
+}
+
+.banner p, .banner h2{
+  text-align: center;
+}
